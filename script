@@ -1,5 +1,6 @@
 
-*** WordPress Installation Script *** 
+****** WordPress Installation Script ****** 
+============================================
 
 # Switch to root user
 sudo su
@@ -55,7 +56,10 @@ sudo vi /var/www/html/wp-config.php
 # Restart Apache web server
 sudo service httpd restart
 
-*** Auto Scaling Group Launch Template Script ***
+
+******* Auto Scaling Group Launch Template Script *******
+=========================================================
+
 
 #!/bin/bash
 # Update the software packages on the EC2 instance
